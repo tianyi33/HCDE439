@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Example Student's HCDE 439 Physical Computing Page!</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+
+           <div class="header">
+            <h1>My Assignment 3!</h1>
+            <p>
+            <img src="a3.gif" width=800></a>
+            </p>
+            <p>
+            Here is all the documentation for assignment 3
+            </p>
+            <img src="a3_dia.jpg" width=800></a>
+            <p>
+            My schematic
+            </p>
+            <img src="a3_code.png" width=800></a>
+            <img src="a3_code2.png" width=800></a>
+            <p>
+            My code
+            </p>
+            <img src="a3_text.png" width=800></a>
+            <p>
+            My serial port output
+            </p>
+        </div>
+    </body>
+</html>
