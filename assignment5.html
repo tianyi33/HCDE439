@@ -20,6 +20,9 @@
             Here is all the documentation for assignment 5
             </p>
             <img src="a5_dia.jpg" width=800></a>
+            <p>
+            I am using the power supply that has max 12V and 2A output. And this is in a safe range for motor and transistor. 
+            </p>
             <img src="a5_code1.png" width=800></a>
 <img src="a5_code2.png" width=800></a>
             <p>
@@ -38,7 +41,7 @@ void setup(){
   Serial.begin(9600);
   irrecv.enableIRIn();
   irrecv.blink13(true);
-  pinMode(fan, OUTPUT);
+  pinMode(fan, OUTPUT);  //turn pin9 mode into output that can be use as analogwrite later to adjust the fan speed and off and on state
 }
 
 void loop(){
